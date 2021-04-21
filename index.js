@@ -1,12 +1,12 @@
 /*the javascript promise is an object that reprsents
  completion and failure an asychronous task/operation and
  its resulting value*/
-let x = true;
+let x = true;//gobal variable
 let promise = new Promise(function(resolve, reject) {
     if (x == true) {
-        resolve("completi");//fullfied state
+        resolve("asychro task is succesfully comolete");//fullfied state
     } else {
-        reject("failure");// rejected state
+        reject("asychronous operation is failed");// rejected state
     }
 });
 console.log(promise);
